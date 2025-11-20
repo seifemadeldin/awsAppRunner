@@ -1,7 +1,7 @@
 version: 1.0
 runtime: nodejs18
 build:
-  commands:
+  command:
     # Installs dependencies when a new commit is pushed
     npm install
 run:
