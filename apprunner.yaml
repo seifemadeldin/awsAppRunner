@@ -1,0 +1,13 @@
+version: 1.0
+runtime: nodejs18
+build:
+  commands:
+    # Installs dependencies when a new commit is pushed
+    - npm install
+run:
+  # The command to start your application
+  command: npm start
+network:
+  port: 8080
+  env:
+    PORT: "8080"
