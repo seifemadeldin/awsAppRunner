@@ -3,7 +3,7 @@ runtime: nodejs18
 build:
   commands:
     # Installs dependencies when a new commit is pushed
-    - npm install
+    npm install
 run:
   # The command to start your application
   command: npm start
