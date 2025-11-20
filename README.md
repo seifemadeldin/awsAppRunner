@@ -89,4 +89,15 @@ After deployment, functional testing was conducted:
 ---
 
 ## 📝 Conclusion
-AWS App Runner proved to be a highly efficient service for deploying web applications. Using the `apprunner.yaml` file (Option 1) provided the most streamlined experience by treating configuration as code, while Option 2 demonstrated the flexibility of using pre-hardened container images.
+This task successfully demonstrated deployment of a serverless web application on AWS App Runner using:
+* GitHub source code deployment, and
+* Amazon ECR container image deployment.
+
+**Key benefits achieved:**
+* Zero server management
+* Built-in HTTPS and load balancing
+* Automatic scaling
+* CI/CD integration with GitHub
+* Simple and repeatable deployment process
+
+AWS App Runner proved to be an efficient solution for running containerized or code-based web applications in a fully managed environment.
